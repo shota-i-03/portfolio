@@ -1,0 +1,102 @@
+.contactSection {
+  min-height: 100vh;
+  padding: 100px 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactCard {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contactDesc {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.emailContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: all 0.3s ease;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.contactLink span {
+    font-weight: 500;
+}
+
+.contactLink:hover {
+  background: rgba(56, 189, 248, 0.1);
+  border-color: #38bdf8;
+  color: #38bdf8;
+  transform: translateY(-3px);
+}
+
+.copyBtn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  border-radius: 8px;
+  padding: 0 1.2rem;
+  height: 60px; /* match contactLink height approx */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.copyBtn:hover {
+  background: rgba(56, 189, 248, 0.1);
+  border-color: #38bdf8;
+  color: #38bdf8;
+  transform: translateY(-3px);
+}
+
+.footer {
+  margin-top: auto;
+  padding: 2rem 0;
+  text-align: center;
+  color: #64748b;
+  font-size: 0.9rem;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
